@@ -1,0 +1,48 @@
+# Build and IDE directories
+**/build/
+**/build-*/
+**/cmake-build-*/
+**/.qtcreator/
+*.pro.user
+*.pro.user.*
+**/*.pro.user
+**/*.pro.user.*
+
+# Compiled binaries and objects
+*.o
+**/*.o
+*.a
+**/*.a
+*.so
+**/*.so
+*.dylib
+**/*.dylib
+*.moc
+**/*.moc
+moc_*.cpp
+**/moc_*.cpp
+*.qrc.cpp
+**/*.qrc.cpp
+ui_*.h
+**/ui_*.h
+*.stash
+**/*.stash
+.qmake.stash
+**/.qmake.stash
+
+# Makefiles and CMake artifacts
+Makefile*
+**/Makefile*
+CMakeCache.txt
+**/CMakeCache.txt
+CMakeFiles/
+**/CMakeFiles/
+cmake_install.cmake
+**/cmake_install.cmake
+Testing/
+**/Testing/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc

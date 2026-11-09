@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tabulky</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <widget class="QWidget" name="tabCountX">
+       <attribute name="title">
+        <string>A: počet X</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutCountX">
+        <item>
+         <widget class="QTableView" name="tableViewCountX"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelCountX">
+          <property name="text">
+           <string>V tabulce jsou 0 X</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSum">
+       <attribute name="title">
+        <string>B: součet</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayoutSum">
+        <item>
+         <widget class="QTableView" name="tableViewSum"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelSum">
+          <property name="text">
+           <string>Součet: 0</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

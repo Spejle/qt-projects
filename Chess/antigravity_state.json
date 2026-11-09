@@ -1,0 +1,61 @@
+{
+    "fen": "r3k1nr/ppp4p/2n5/8/2P1qpb1/2b5/PP2N1PP/R3K2R w KQkq - 0 17",
+    "history": [
+        "e4",
+        "e5",
+        "d4",
+        "f6",
+        "dxe5",
+        "fxe5",
+        "Qxd7+",
+        "Qxd7",
+        "Bf4",
+        "exf4",
+        "e5",
+        "Qd5",
+        "f3",
+        "g5",
+        "e6",
+        "g4",
+        "fxg4",
+        "Bxe6",
+        "c4",
+        "Qd7",
+        "Nc3",
+        "Bxg4",
+        "Ne4",
+        "Bb4+",
+        "Nc3",
+        "Nc6",
+        "Bd3",
+        "Qe6+",
+        "Be4",
+        "Qxe4+",
+        "Ne2",
+        "Bxc3+"
+    ],
+    "legalMoves": [
+        {
+            "isCapture": true,
+            "san": "b2c3",
+            "uci": "b2c3"
+        },
+        {
+            "isCapture": false,
+            "san": "e1f2",
+            "uci": "e1f2"
+        },
+        {
+            "isCapture": false,
+            "san": "e1d1",
+            "uci": "e1d1"
+        },
+        {
+            "isCapture": false,
+            "san": "e1f1",
+            "uci": "e1f1"
+        }
+    ],
+    "status": "waiting_for_antigravity",
+    "turn": "white"
+}
